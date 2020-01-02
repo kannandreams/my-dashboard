@@ -1,16 +1,16 @@
 import React from 'react';
 import { Row } from 'simple-flexbox';
-import { Stylesheet, css } from 'aphrodite';
+import { StyleSheet, css } from 'aphrodite';
 import Logo from '../../assets/icon-logo';
 
-const styles = Stylesheet.create({
+const style = StyleSheet.create({
   container:{
     marginLeft: 32,
     marginRight: 32
 
   },
   title:{
-    fontFamily: 'Multi',
+    fontFamily: 'Muli',
     fontStyle: 'normal',
     fontWeight: 'bold',
     fontSize: 19,
@@ -20,7 +20,7 @@ const styles = Stylesheet.create({
     marginLeft: 12
 
   }
-})
+});
 
 function LogoComponent() {
   return (
